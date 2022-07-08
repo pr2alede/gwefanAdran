@@ -1,0 +1,225 @@
+
+/*Dark Blue: #12232E
+
+Lighter Blue: #007CC7
+
+Lightest Blue: #4DA8DA
+
+Shadow of Dark Blue: #203647
+
+Shadow of Light Blue: #EEFBFB*/
+
+
+body{
+ background-color:#12232E ;
+ font-size:16px;   
+ padding: 0;
+ margin: 0;
+ font-family: 'Encode Sans', sans-serif;
+ overflow-x: hidden; 
+ 
+ 
+}
+
+.header{
+    display:flex;
+    flex-wrap: wrap;
+    position: sticky; top: 0;
+    background-color:#4DA8DA;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px;
+
+    
+}
+
+.header .nav{
+    display:flex;
+    font-size:1rem;
+    justify-content: center;
+
+
+
+    
+
+}
+
+.nav ul{
+    display:flex;
+    padding-left:0;
+}
+.nav li{
+    list-style-type:none;
+    margin-right:10px;
+}
+
+.nav a:link {
+    color:#EEFBFB;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color:#007CC7;
+  }
+
+.header .heading{
+    font-size:4rem;
+
+
+}
+
+
+.main{
+    display:flex;
+    background-image:url("../images/keyboard.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:720px;;
+
+    align-items: center;
+    margin:0;
+}
+
+.main .datganiadContainer{
+    padding-left:30px;
+    width:50%;
+}
+
+.main .datganiadContainer h2{
+    padding:10px;
+    color:#EEFBFB;
+    font-style: italic;
+    font-size: 4rem;
+}
+
+.gwersiContainer{
+
+    color:#EEFBFB;
+    width:100%;
+    margin:auto;
+    padding-bottom: 40px;
+
+}
+
+.gwersiTitle{
+    text-align:left;
+    font-size:3rem;
+    color:#EEFBFB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.gwersiImages{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.gwersiCard{
+position: relative;
+padding:10px;
+background-color: #EEFBFB;
+height:300px;
+margin:5px;
+
+}
+
+
+.gwersiCard img{
+    width:100%;
+    height:100%;
+}
+
+.gwersiCard .content{
+    background-color:#EEFBFB;
+    width:70%;
+    font-size:1.5rem;
+    color:#12232E;
+    opacity: 0.9;
+    position: absolute;
+    left:10px;
+    bottom:10px;
+}
+
+.staffContainer{
+    background-color:#4DA8DA;
+    padding-bottom: 40px;
+}
+
+.staffTitle{
+    text-align:left;
+    font-size:3rem;
+    color:#12232E;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.staffImagesContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;  
+}
+
+.staffImages{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.staffCard{
+position: relative;
+padding:10px;
+background-color: #4DA8DA;
+height:600px;
+margin:5px;
+}
+
+.staffCard img{
+    width:100%;
+    height:100%;
+}
+
+.staffCard .content{
+    background-color:#12232E;
+    width:70%;
+    font-size:1.5rem;
+    color:#EEFBFB;
+    opacity: 0.9;
+    position: absolute;
+    left:10px;
+    bottom:10px;
+}
+
+.footer{
+   background-color:  #12232E ;
+   width:100%;
+   justify-content: center;
+   align-items:center;  
+   text-align: center;
+}
+
+.footer .content{
+    color:#EEFBFB;
+    width:100%;
+    justify-content: center;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 760px) {
+
+    .main .datganiadContainer h2{
+   
+        font-size: 2rem;
+    }
+
+  }
